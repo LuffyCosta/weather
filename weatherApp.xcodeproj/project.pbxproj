@@ -14,7 +14,6 @@
 		1FD0BC9226F4C0A5008A9391 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FD0BC9126F4C0A5008A9391 /* Assets.xcassets */; };
 		1FD0BC9526F4C0A5008A9391 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD0BC9326F4C0A5008A9391 /* LaunchScreen.storyboard */; };
 		1FD0BCA326F4C69D008A9391 /* Configs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FD0BCA226F4C69D008A9391 /* Configs.plist */; };
-		1FD0BCA726F4CF1A008A9391 /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD0BCA626F4CF1A008A9391 /* CityModel.swift */; };
 		1FD0BCA926F4D92F008A9391 /* AddCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD0BCA826F4D92F008A9391 /* AddCityViewController.swift */; };
 		1FD0BCAB26F4E318008A9391 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD0BCAA26F4E318008A9391 /* AddViewController.swift */; };
 		1FD0BCAE26F4EAF5008A9391 /* CLPlacemarkExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD0BCAD26F4EAF5008A9391 /* CLPlacemarkExtention.swift */; };
@@ -22,6 +21,7 @@
 		1FD0BCB226F519F7008A9391 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD0BCB126F519F7008A9391 /* DetailsViewController.swift */; };
 		1FD0BCB626F51B4F008A9391 /* WeatherInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD0BCB526F51B4F008A9391 /* WeatherInfoModel.swift */; };
 		1FD0BCB826F51BA4008A9391 /* WeatherDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD0BCB726F51BA4008A9391 /* WeatherDataManager.swift */; };
+		1FD0BCBA26F8AFFA008A9391 /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD0BCB926F8AFFA008A9391 /* CityModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +34,6 @@
 		1FD0BC9426F4C0A5008A9391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FD0BC9626F4C0A5008A9391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FD0BCA226F4C69D008A9391 /* Configs.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Configs.plist; sourceTree = "<group>"; };
-		1FD0BCA626F4CF1A008A9391 /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CityModel.swift; path = ../../../../../Downloads/CityModel.swift; sourceTree = "<group>"; };
 		1FD0BCA826F4D92F008A9391 /* AddCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCityViewController.swift; sourceTree = "<group>"; };
 		1FD0BCAA26F4E318008A9391 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		1FD0BCAD26F4EAF5008A9391 /* CLPlacemarkExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLPlacemarkExtention.swift; sourceTree = "<group>"; };
@@ -42,6 +41,7 @@
 		1FD0BCB126F519F7008A9391 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		1FD0BCB526F51B4F008A9391 /* WeatherInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInfoModel.swift; sourceTree = "<group>"; };
 		1FD0BCB726F51BA4008A9391 /* WeatherDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataManager.swift; sourceTree = "<group>"; };
+		1FD0BCB926F8AFFA008A9391 /* CityModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +110,7 @@
 		1FD0BC9F26F4C432008A9391 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				1FD0BCA626F4CF1A008A9391 /* CityModel.swift */,
+				1FD0BCB926F8AFFA008A9391 /* CityModel.swift */,
 				1FD0BCB526F51B4F008A9391 /* WeatherInfoModel.swift */,
 			);
 			path = Model;
@@ -221,7 +221,7 @@
 				1FD0BCAB26F4E318008A9391 /* AddViewController.swift in Sources */,
 				1FD0BCAE26F4EAF5008A9391 /* CLPlacemarkExtention.swift in Sources */,
 				1FD0BC8926F4C09E008A9391 /* AppDelegate.swift in Sources */,
-				1FD0BCA726F4CF1A008A9391 /* CityModel.swift in Sources */,
+				1FD0BCBA26F8AFFA008A9391 /* CityModel.swift in Sources */,
 				1FD0BCB626F51B4F008A9391 /* WeatherInfoModel.swift in Sources */,
 				1FD0BC8B26F4C09E008A9391 /* SceneDelegate.swift in Sources */,
 			);
